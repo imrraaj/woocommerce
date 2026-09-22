@@ -98,7 +98,7 @@ const COMPATIBILITY_OVERRIDES = {
 		flags: 'i',
 	},
 	PR: { pattern: '[0-9]{5}(?:-[0-9]{4})?', flags: 'i' },
-	PT: { pattern: '[0-9]{4}-[0-9]{3}' },
+	PT: { pattern: '[0-9]{4}-?[0-9]{3}' },
 	SE: { pattern: '(?:SE-)?[0-9]{3}\\s?[0-9]{2}' },
 	SI: { pattern: '[1-9][0-9]{3}' },
 	SK: { pattern: '(?:SK-)?[0-9]{3}\\s?[0-9]{2}' },
